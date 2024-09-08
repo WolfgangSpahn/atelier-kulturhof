@@ -2,6 +2,6 @@
 
 German Version:
 
-https://wolfgangspahn.github.io/atelier-kulturhof.github.io 
+https://wolfgangspahn.github.io/atelier-kulturhof.github.io
 
 

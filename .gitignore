@@ -18,9 +18,6 @@ Thumbs.db
 .quarto-work/
 /.quarto/
 
-# Ignore Quarto output files
-docs/
-
 # -------------------------------------------------------- Javascript frontend
 
 # Dependency directories
