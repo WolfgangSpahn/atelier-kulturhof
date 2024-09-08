@@ -47,7 +47,9 @@ serve: build
 
 clean:          ## clean up
 	rm -rf docs
+	rm -rf .quarto
 	rm -rf node_modules
+	rm -rf __pycache__ .pytest_cache
 	gfind . -type f -name '*~' -delete
 	cd backend && make clean
 
