@@ -16,17 +16,18 @@ export async function doFetch(url, method, data = null, /* leagcy */ callback = 
     // Return the Promise to allow for both callback and promise-based handling
     try {
         const response = await fetch(url, fetchOptions);
-        // if (!response.ok) {
-        //     console.warn('Error:', response);
-        //     return response;
-        // }
+        if (!response.ok) {
+            console.error('Error:', response);
+            return null;
+        }
         const response_1 = await response.json();
         if (callback) {
             callback(response_1);
         }
         return response_1;
     } catch (error) {
-        console.warn('Error:', error);
+        console.error('Error:', error);
+        return null;
     }
 }
 

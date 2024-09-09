@@ -171,7 +171,7 @@ export function postIt(draw, text, x, y, maxWidth=100, lineHeight=18, maxHeight=
 export function createBoardD3(draw, texts, boardWidth, boardHeight) {
     // assert texts is an array and not empty of an array of arrays
     if (!Array.isArray(texts) || texts.length === 0 || Array.isArray(texts[0])) {
-        console.warn('Invalid input type for createBoardD3:', texts);
+        console.error('Invalid input type for createBoardD3:', texts);
         return;
     }
     // log type of texts
@@ -269,7 +269,7 @@ export async function resultsBoard(element, argConfig){
         }
         createBoardD3(draw, texts, config.width, config.height, 120, 18);
     } catch (error) {
-        console.warn('Warning:', error);
+        console.error('Warning:', error);
     }
     // update the board via server-sent events
     console.log(`eventSource: A-${qid}`);
