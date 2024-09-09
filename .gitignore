@@ -23,8 +23,6 @@ Thumbs.db
 # Dependency directories
 node_modules/
 # Output directories
-dist/
-build/
 
 ## -------------------------------------------------------- Python backend
 # virtualenv
