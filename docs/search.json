@@ -95,7 +95,7 @@
     "href": "index.html#wie-machen-llms-das-12",
     "title": "Künstliche Intelligenz",
     "section": "Wie machen LLMs das? 1/2",
-    "text": "Wie machen LLMs das? 1/2\nLLM bewerten die Wahrscheinlichkeit eines Textes. Dabei lernen sie die Beziehungen zwischen Wörtern und Sätzen.\n\n\n\n\n\n\n\nSatz\nWahrscheinlichkeit\n\n\n\n\nDie Katze sass auf der Bank. Die Bank war aus Holz\n90 %\n\n\nDie Katze sass auf der Bank. Die Bank war geschlossen\n10 %\n\n\n\n Training von LLMs:\n\nmit ALLEN qualitativ hochwertigen, weltweit zugänglichen menschlichen Sprachdaten\nUmfasst Bücher, Zeitungen, geschriebene Sprachen, Internet-Dialoge und transkribierte Video-Dialoge\n\nOpenAI brauchte \\(13\\cdot 10^{12}\\) Tokens (~100 Mio Bücher) um GPT-4 mit ca. \\(1\\cdot 10^{12}\\) Parameter, dh. Terabytes an Speicher, auf Tausenden von GPUs mehrere Monate zu trainieren."
+    "text": "Wie machen LLMs das? 1/2\nLLM bewerten die Wahrscheinlichkeit eines Textes. Dabei lernen sie die Beziehungen zwischen Wörtern und Sätzen.\n\n\n\n\n\n\n\nSatz\nWahrscheinlichkeit\n\n\n\n\nDie Katze sass auf der Bank. Die Bank war aus Holz\n90 %\n\n\nDie Katze sass auf der Bank. Die Bank war geschlossen\n10 %\n\n\n\n Training von LLMs:\n\nmit ALLEN qualitativ hochwertigen, weltweit zugänglichen menschlichen Sprachdaten\nUmfasst Bücher, Zeitungen, geschriebene Sprachen, Internet-Dialoge und transkribierte Video-Dialoge\n\nOpenAI brauchte \\(13\\cdot 10^{12}\\) Tokens (~100 Mio Bücher) um GPT-4 mit ca. \\(1\\cdot 10^{12}\\) Parameter, dh. Terabytes an Speicher, auf Tausenden von GPUs mehrere Monate zu trainieren.\nn-gram"
   },
   {
     "objectID": "index.html#modelle-skalieren",
@@ -207,7 +207,7 @@
     "href": "index.html#was-meint-ihr",
     "title": "Künstliche Intelligenz",
     "section": "Was meint ihr?",
-    "text": "Was meint ihr?\nIst das eine wahrscheinliche Entwicklung?"
+    "text": "Was meint ihr?\nKI/Mensch Zusammenarbeit ist eine eher wahrscheinliche Entwicklung.\n\n\n\n\n\n\nKI am Arbeitsplatz macht mir Sorgen."
   },
   {
     "objectID": "index.html#section-4",
@@ -277,7 +277,7 @@
     "href": "index.html#was-meint-ihr-1",
     "title": "Künstliche Intelligenz",
     "section": "Was meint ihr?",
-    "text": "Was meint ihr?\n\nSpart das Arbeit/Zeit?\n\n\n\n\n\n\nHilft das der Bildung?"
+    "text": "Was meint ihr?\n\nDas spart Arbeit/Zeit in der Schule.\n\n\n\n\n\n\nDie Nutzung von ChatGPT im Schulumfeld hilft der Bildung."
   },
   {
     "objectID": "index.html#ki-bots-im-schulumfeld",
@@ -361,7 +361,7 @@
     "href": "index.html#was-meint-ihr-3",
     "title": "Künstliche Intelligenz",
     "section": "Was meint ihr?",
-    "text": "Was meint ihr?\n\nPasst diese Vision?"
+    "text": "Was meint ihr?\n\nDas ist eine passende Vision für die MINT Bildung 2035"
   },
   {
     "objectID": "index.html#section-8",
@@ -411,5 +411,19 @@
     "title": "Künstliche Intelligenz",
     "section": "_",
     "text": "_\n\n\n- Vielen Dank für die Aufmerksamkeit! -\n\n\n\n\n\nDr. Wolfgang Spahn"
+  },
+  {
+    "objectID": "index.html#dialoganalyse",
+    "href": "index.html#dialoganalyse",
+    "title": "Künstliche Intelligenz",
+    "section": "Dialoganalyse",
+    "text": "Dialoganalyse\n\n\n\nDialog A\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\n….. \nStudent: we get x\nAI: So we bring everything with x on one side\nStudent: 8x = 10\nAI: great you have done it, and now\nStudent: I need to get x\nAI: yes now you need to have just x on one side\nStudent: x = 10/8\nAI: nearly done\nStudent: what do you mean\nAI: you can simplify further\nStudent: x = 5/4\n\n\n\n\nDialog B\n\nAI: Let’s solve this. Please read it\nStudent: I have read it\nAI: how would you solve this\nStudent: we need to isolate x to one side\nAI: Good, just do it\nStudent: 8x = 10\nAI: And now\nStudent: x = 10/8 = 5/4\n\nFragen:\n\nHow much is the contribution of the student and AI in A and in B.\nWhat concepts are still not understood by the student in A\nWhat strategy towards solution does AI and student use in A and B"
+  },
+  {
+    "objectID": "index.html#ki-zur-korrekturhilfe",
+    "href": "index.html#ki-zur-korrekturhilfe",
+    "title": "Künstliche Intelligenz",
+    "section": "KI zur Korrekturhilfe",
+    "text": "KI zur Korrekturhilfe\nChatGPT korrigiert Lösungen zur Geschichtsprüfung: Kompetenzorientierter Unterricht: Geschichte, Neue Systematik: 2009-2013 Lehrer*innenfortbildung BW\n\nAufgabe: Erläutern Sie die Ausgangsbedingungen des Industrialisierungsprozesses in Eng-land und maßgebliche Unterschiede zu denen in Deutschland. (12 VP)\nKriterien (für die Lehrperson):\n\nKriterien für eine gute Leistung:\n\nDem Schüler gelingt es, einige wesentliche Aspekte, die die frühe industrielle Entwicklung Englands bedingen, durch entsprechend ausgeführte Beispiele aus unterschiedlichen Bereichen strukturiert darzustellen. Er macht den inneren Zusammenhang einiger dieser Aspekte deutlich und führt dementsprechend die verspätete Industrialisierung in Deutschland auf das Fehlen dieses Bedingungsgefüges zurück, dabei kann er ergänzend auch auf Besonderheiten in Deutschland, die den Beginn der Industrialisierung gehemmt haben, zurückgreifen.\n\nKriterien für eine ausreichende Leistung:\n\nEher additiv werden einige Aspekte der englischen Industrialisierung genannt, die nicht in einen engeren Zusammenhang zueinander gebracht werden. Es werden Beispiele angeführt, allerdings werden diese nicht eingehender erklärt, auch der Vergleich mit Deutsch-land erscheint wenig stringent.\n\n\n\nR:“By comparing the grading of a human lecturer and ChatGPT-4 in an experiment with 105 students, our study found a strong positive correlation between the scores given by both, despite some mismatches.”"
   }
 ]

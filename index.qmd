@@ -3,6 +3,10 @@ title: "Künstliche Intelligenz"
 subtitle: |
   **Teil A**: Technologie, Anwendungen und Auswirkungen<br>
   **Teil B**: in Didaktik und Pädagogik
+  <br><br>
+  *Dr. Wolfgang Spahn*
+  <br><br>
+  9.9.2024
 format: 
   revealjs: 
     config:
@@ -302,6 +306,7 @@ LLM bewerten die Wahrscheinlichkeit eines Textes. Dabei lernen sie die Beziehung
 
 OpenAI brauchte $13\cdot 10^{12}$ Tokens (~100 Mio Bücher) um GPT-4 mit ca. $1\cdot 10^{12}$ Parameter, dh. Terabytes an Speicher, auf Tausenden von GPUs mehrere Monate zu trainieren.
 
+[n-gram](https://huggingface.co/spaces/liujch1998/infini-gram)
 
 <!-- --------------------------------------------------- slide A16 ----------------------------------------------------- -->
 ## Modelle skalieren
@@ -468,10 +473,10 @@ GTP4
 ![](images/MMMU.webp){width="70%"}
 
 <!-- --------------------------------------------------- slide A25 ----------------------------------------------------- -->
-## Roboter Entwicklung
+<!-- ## Roboter Entwicklung
 
 ![](images/NrOfProfServ.webp){width="70%"}
-
+ -->
 
 <!-- --------------------------------------------------- slide A26 ----------------------------------------------------- -->
 ## _
@@ -485,7 +490,7 @@ KI - Gesellschaftliche Auswirkungen
 <!-- --------------------------------------------------- slide A28 ----------------------------------------------------- -->
 ## geistige Arbeit 2030
 
-![](images/KI Mensch Zusammenarbeit.webp){width="175%"}
+![](images/KI Mensch Zusammenarbeit.jpg){width="175%"}
 
 KI führt zu einer neuen geistigen Arbeit
 
@@ -535,11 +540,16 @@ sehen 25-40% Zunahme der Produktivität
 
 ## Was meint ihr?
 
-Ist das eine wahrscheinliche Entwicklung?
+KI/Mensch Zusammenarbeit ist eine eher wahrscheinliche Entwicklung.
 
 <div type="pollField" id="pollField3"></div>
 <div type="pollPercentage" ref="pollField3" class="centered-xxl-text"></div>
 
+
+KI am Arbeitsplatz macht mir Sorgen.
+
+<div type="pollField" id="pollField4"></div>
+<div type="pollPercentage" ref="pollField4" class="centered-xxl-text"></div>
 
 <!-- --------------------------------------------------- slide 21 ----------------------------------------------------- -->
 ## _
@@ -667,22 +677,39 @@ Ein Zürcher Maturand sagt [Bestnote Deutsch!]: «Ich habe keines meiner Bücher
 
 ![](images/Astrid Brüggemann.webp){width="50%"}
 
+<!-- --------------------------------------------------- slide B5b ----------------------------------------------------- -->
+## KI zur Korrekturhilfe
+
+**ChatGPT korrigiert Lösungen zur Geschichtsprüfung**: Kompetenzorientierter Unterricht: Geschichte, Neue Systematik: 2009-2013 <br>[Lehrer*innenfortbildung BW](https://lehrerfortbildung-bw.de/u_gewi/geschichte/gym/bp2004/fb5/abi/1_lsg/aufg1/)
+
+- **Aufgabe:** 
+Erläutern Sie die Ausgangsbedingungen des Industrialisierungsprozesses in Eng-land und maßgebliche Unterschiede zu denen in Deutschland. 	(12 VP)
+
+- **Kriterien (für die Lehrperson):**
+  - Kriterien für eine gute Leistung: 
+     - Dem Schüler gelingt es, einige wesentliche Aspekte, die die frühe industrielle Entwicklung Englands bedingen, durch entsprechend ausgeführte Beispiele aus unterschiedlichen Bereichen strukturiert darzustellen. Er macht den inneren Zusammenhang einiger dieser Aspekte deutlich und führt dementsprechend die verspätete Industrialisierung in Deutschland auf das Fehlen dieses Bedingungsgefüges zurück, dabei kann er ergänzend auch auf Besonderheiten in Deutschland, die den Beginn der Industrialisierung gehemmt haben, zurückgreifen.
+  - Kriterien für eine ausreichende Leistung: 
+     - Eher additiv werden einige Aspekte der englischen Industrialisierung genannt, die nicht in einen engeren Zusammenhang zueinander gebracht werden. Es werden Beispiele angeführt, allerdings werden diese nicht eingehender erklärt, auch der Vergleich mit Deutsch-land erscheint wenig stringent.
+
+[R](https://link.springer.com/chapter/10.1007/978-3-031-53960-2_1):<span style="font-size: 0.8em;">"By comparing the grading of a human lecturer and ChatGPT-4 in an experiment with 105 students, our study found a strong positive correlation between the scores given by both, despite some mismatches."</span> 
+
+
+
 <!-- --------------------------------------------------- slide B5a ----------------------------------------------------- -->
 ## Was meint ihr?
-- Spart das Arbeit/Zeit?
-<div type="pollField" id="pollField4"></div>
-<div type="pollPercentage" ref="pollField4" class="centered-xxl-text"></div>
-
-- Hilft das der Bildung?
+- Das spart Arbeit/Zeit in der Schule.
 <div type="pollField" id="pollField5"></div>
 <div type="pollPercentage" ref="pollField5" class="centered-xxl-text"></div>
+
+- Die Nutzung von ChatGPT im Schulumfeld hilft der Bildung.
+<div type="pollField" id="pollField6"></div>
+<div type="pollPercentage" ref="pollField6" class="centered-xxl-text"></div>
+
 
 
 <!-- --------------------------------------------------- slide B6 ----------------------------------------------------- -->
 
 ## KI Bots im Schulumfeld
-
-
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -812,7 +839,7 @@ Neuere Ansätze basierten auf klassische  KI-Methoden und sokratischen Dialog.
 
 :::
 ::: {.column width="50%"}
-![](images/AutoTutor.ppm){width="70%"}
+![](images/AutoTutor.webp){width="70%"}
 :::
 ::::
 - **Schwachstellen**: Hat Schwierigkeiten mit unvorhergesehenen Fragen und Antworten, hat instruktionellen Fokus. Inhalte müssen von Experten erstellt werden. Potentieller Raum von Antworten muss klar abgesteckt sein.
@@ -973,7 +1000,7 @@ Sources:
 ::::
 <!-- --------------------------------------------------- slide B5a ----------------------------------------------------- -->
 ## Was meint ihr?
-- Passt diese Vision?
+- Das ist eine passende Vision für die MINT Bildung 2035
 <div type="pollField" id="pollField7"></div>
 <div type="pollPercentage" ref="pollField7" class="centered-xxl-text"></div>
 
@@ -1006,7 +1033,7 @@ GPT4 erstellt Aufgaben gemäss Bloomscher Taxonomie.
 
 ![](images/taxonomy.webp){width="100%"}
 
-
+<!-- --------------------------------------------------- slide 17 ----------------------------------------------------- -->
 ## Architektur
 
 :::: {.columns}
@@ -1021,7 +1048,53 @@ Ein typisches KI Lernsystem besteht aus mehreren Komponenten, die unterschiedlic
 Sie sind mittels unterschiedlicher technologischer Ansätze realisiert.
 :::
 ::: {.column width="50%"}
-![](images/ITS_Architekture.webp){width="100%"}
+![](images/ITS_Architekture.jpg){width="100%"}
+:::
+::::
+
+<!-- --------------------------------------------------- slide 17 ----------------------------------------------------- -->
+## Dialoganalyse
+
+:::: {.columns .smaller}
+::: {.column width="50%}
+
+- **Dialog A**
+  - AI: Let's solve this. Please read it
+  - Student: I have read it
+  - .....
+  <!-- - AI: how would you solve this
+  - Student: No idea
+  - AI: COme on try it
+  - Student: Somehow I have to get x
+  - AI: How -->
+  - Student: we get x
+  - AI: <span style="color:blue">So we bring everything with x on one side</span>
+  - Student: <span style="color:blue">8x = 10</span>
+  - AI: great you have done it, and now
+  - Student: I need to get x
+  - AI: <span style="color:blue">yes now you need to have just x on one side</span>
+  - Student: <span style="color:blue">x = 10/8</span>
+  - AI: nearly done
+  - Student: what do you mean
+  - AI: <span style="color:blue">you can simplify further</span>
+  - Student: <span style="color:blue">x = 5/4</span>
+:::
+::: {.column width="50%"}
+
+- **Dialog B**
+  - AI: Let's solve this. Please read it
+  - Student: I have read it
+  - AI: how would you solve this
+  - Student: <span style="color:blue">we need to isolate x to one side</span>
+  - AI: Good, just do it
+  - Student: <span style="color:blue">8x = 10</span>
+  - AI: And now
+  - Student: <span style="color:blue">x = 10/8 = 5/4</span>
+
+- **Fragen**:
+  - How much is the contribution of the student and AI in A and in B.
+  - What concepts are still not understood by the student in A
+  - What strategy towards solution does AI and student use in A and B
 :::
 ::::
 
