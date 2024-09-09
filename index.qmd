@@ -223,7 +223,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 
 <br>
 
-![Beispiel: bank (Geldinstitut), bank (Ufer)](images/meaning of bank.webp){width="95%" .gray-border}
+![Beispiel: bank (Geldinstitut), bank (Ufer)](images/meaning of bank.png){width="95%" .gray-border}
 
 :::
 ::: {.column width="50%"}
@@ -233,7 +233,7 @@ Findet das nächste Wort/Bild in einer Sequenz. `how are [you]`
 - Ein neuronal Netz analysiert die Beziehungen der Worte im Kontext (Satz, Paragraph, Buch)
 - Daraus lernt es das wahrscheinlichste Wort vorherzusagen.
 
-![Beispiel: river, bank](images/context of bank.webp){width="95%" .gray-border}
+![Beispiel: river, bank](images/context of bank.png){width="95%" .gray-border}
 
 :::
 ::::

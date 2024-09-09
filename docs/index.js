@@ -19,17 +19,18 @@
         // Return the Promise to allow for both callback and promise-based handling
         try {
             const response = await fetch(url, fetchOptions);
-            // if (!response.ok) {
-            //     console.warn('Error:', response);
-            //     return response;
-            // }
+            if (!response.ok) {
+                console.error('Error:', response);
+                return null;
+            }
             const response_1 = await response.json();
             if (callback) {
                 callback(response_1);
             }
             return response_1;
         } catch (error) {
-            console.warn('Error:', error);
+            console.error('Error:', error);
+            return null;
         }
     }
 
@@ -135,6 +136,12 @@
         let response = await doFetch(`nickname/${uuid_nr}`,"GET");
         let ip_socket = await getIPSocket();
         console.log('ip_socket:', ip_socket);
+
+        // check for reponse is null
+        if (response == null) {
+            console.error('Error fetching nickname: cannot create team');
+            return;
+        }
 
         if ("warning" in response) name = null;
         else name = response.nickname;
@@ -487,7 +494,7 @@
     function createBoardD3(draw, texts, boardWidth, boardHeight) {
         // assert texts is an array and not empty of an array of arrays
         if (!Array.isArray(texts) || texts.length === 0 || Array.isArray(texts[0])) {
-            console.warn('Invalid input type for createBoardD3:', texts);
+            console.error('Invalid input type for createBoardD3:', texts);
             return;
         }
         // log type of texts
@@ -585,7 +592,7 @@
             }
             createBoardD3(draw, texts, config.width, config.height, 120, 18);
         } catch (error) {
-            console.warn('Warning:', error);
+            console.error('Warning:', error);
         }
         // update the board via server-sent events
         console.log(`eventSource: A-${qid}`);

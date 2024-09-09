@@ -74,6 +74,12 @@ export async function createTeam(){
     let ip_socket = await getIPSocket();
     console.log('ip_socket:', ip_socket);
 
+    // check for reponse is null
+    if (response == null) {
+        console.error('Error fetching nickname: cannot create team');
+        return;
+    }
+
     if ("warning" in response) name = null;
     else name = response.nickname;
     localStorage.removeItem('nickname');
