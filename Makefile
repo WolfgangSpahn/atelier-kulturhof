@@ -6,6 +6,7 @@ endif
 help:           ## Show this help.
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e "s/\\$$//" | sed -e "s/##//"
 
+PRESENTATION_NAME = index
 IMG_DIR = docs/images
 FIND=find
 # use env var PRESENTAION_NAME=presentation
@@ -26,7 +27,7 @@ install:        ## installs dependencies
 build: install  ## Bundle js code with rollup.
 	@npm run build
 
-render:	build   ## Render the markdown with quarto
+render:         ## Render the markdown with quarto
 	@quarto render $(QMD)
 
 .PHONY: images
@@ -46,7 +47,6 @@ serve: build
 	cd backend && make run
 
 clean:          ## clean up
-	rm -rf docs
 	rm -rf .quarto
 	rm -rf node_modules
 	rm -rf __pycache__ .pytest_cache
